@@ -1,23 +1,30 @@
-# Compiled class file
+# NetBeans 專案忽略檔案
+/LoginJFrame/nbproject/private/
+/LoginJFrame/build/
+/LoginJFrame/nbbuild/
+/LoginJFrame/dist/
+/LoginJFrame/nbdist/
+/LoginJFrame/nbactions.xml
+/LoginJFrame/nb-configuration.xml
+
+# 編譯產物
 *.class
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# 封裝檔案
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# 虛擬機崩潰日誌
 hs_err_pid*
+
+# IDE 設定檔
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+
+# 作業系統檔案
+.DS_Store
+Thumbs.db
